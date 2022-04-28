@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@300;400&family=Anton&family=Orelega+One&family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+}
+
+body {
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 550px;
+    background-color: rgb(119, 198, 234);
+    padding: 80px 30px;
+    box-shadow: 0 20px 25px rgba(0,0,0);
+    border-radius: 250px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.cf {
+    width: 45%;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    border-radius: 290px;
+    border: 4px solid #d2d2d2;
+    outline: none;
+    margin-top: 6px;
+    padding: 0 20px;
+}
